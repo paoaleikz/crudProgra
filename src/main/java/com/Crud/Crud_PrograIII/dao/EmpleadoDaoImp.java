@@ -17,7 +17,9 @@ public class EmpleadoDaoImp {
      @Autowired private  EmpleadoDao Edao;
 
     public List<Empleado> getEmpleados(){
-       return (List<Empleado>) Edao.findAll();
+
+        return (List<Empleado>) Edao.findAll();
+
     }
 
     public int guardarEmpleado(Empleado empleado){
