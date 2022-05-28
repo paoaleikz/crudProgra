@@ -18,7 +18,7 @@ import java.util.Optional;
 public class controlador {
     @Autowired  private EmpleadoDaoImp EdaoImp;
 
-    @GetMapping("/empleados")
+    @GetMapping("/Empleados")
     public String  getEmpleados( Model model)
     {
         List<Empleado> lstEmpleados = EdaoImp.getEmpleados();
