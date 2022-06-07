@@ -57,7 +57,6 @@ public class controlador {
                 (empleado)-> { EdaoImp.eliminarEmpleado(empleado);},
                 ()-> {}
         );
-
         return "redirect:/empleados";
     }
 
